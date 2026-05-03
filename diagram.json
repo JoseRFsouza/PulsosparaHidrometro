@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "Jose Ricardo",
+  "editor": "wokwi",
+  "parts": [ { "type": "board-esp32-s3-devkitc-1", "id": "esp", "top": 0, "left": 0, "attrs": {} } ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:1", "esp:2", "green", [ "h14.17", "v9.42" ] ],
+    [ "esp:1", "esp:4", "green", [ "h14.17", "v-76.98", "h-124.8", "v76.8" ] ],
+    [ "esp:4", "esp:5", "green", [ "h-24.28", "v9.42" ] ],
+    [ "esp:5", "esp:6", "green", [ "h-24.28", "v9.42" ] ]
+  ],
+  "dependencies": {}
+}
